@@ -1,0 +1,75 @@
+*{
+    /* Reset Css */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+1. Vị trí
+2. Kích thước
+3. Màu sắc
+4. Kiểu dáng (Kiểu chữ)
+*/
+
+/* 
+1. Làm từ trên xuống dưới
+2. Làm từ ngoài vào trong
+3. Làm tổng quan đến chi tiết
+*/
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    color: white;
+}
+
+#nav{
+
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav li a{
+    color: white;
+    text-decoration: none; 
+    line-height: 46px;
+    padding: 0 24px;
+ 
+}
+
+#nav li:hover a {
+    color:#000;
+    background-color: #ccc;
+   
+}
+
+#nav .subnav{
+    position: absolute;
+    background-color: #fff;
+    color: #000;
+    /* display: none; */
+}
+
+#slider {
+    height: 500px;
+    background: rgb(97, 94, 94);
+    color: #ccc;
+}
+
+#content {
+
+}
+
+#footer {
+
+}
